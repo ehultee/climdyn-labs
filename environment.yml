@@ -1,0 +1,20 @@
+name: geol202
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - dask
+  - xarray
+  - metpy
+  - cartopy
+  - sympy
+  - ffmpeg
+  - jupyter
+  - climlab>=0.7.5  # older versions in 0.7 series had some bugs in diffusion diagnostics
+  - version_information
+  - rise
+  - numba>=0.43.1  # older version will hang forever under python 3, https://github.com/brian-rose/climlab/issues/101
+  - netcdf4
