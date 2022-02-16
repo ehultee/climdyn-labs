@@ -2,6 +2,7 @@
 This repository will share labs and other computational tools for GEOL0202 at Middlebury College.
 
 
+## First time user instructions
 You will need a conda environment with Jupyter, Climlab, and a few other packages to run these notebooks.  Follow the instructions below to set one up on your machine:
 
 The following commands will create a self-contained conda environment with everything you need to run these notebooks (Mac, Linux and Windows). 
@@ -17,6 +18,18 @@ The following commands will create a self-contained conda environment with every
 5. Finally, from within the `climdyn-labs` directory, enter the following commands in the terminal:
 ```
 conda env create --file environment.yml
+conda activate geol202
+jupyter notebook
+```
+
+
+
+## Returning user instructions
+If you are coming back to this repo to run a new notebook, and you already have the environment installed, all you need to do is
+1. Open a terminal window and navigate to your `climdyn-labs` directory using the `cd` command.  
+
+2. From within the `climdyn-labs` directory, enter the following commands in the terminal:
+```
 conda activate geol202
 jupyter notebook
 ```
