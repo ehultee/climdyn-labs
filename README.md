@@ -1,5 +1,5 @@
 # climdyn-labs
-This repository will share labs and other computational tools for GEOL0202 at Middlebury College.
+This repository will share labs and other computational tools for ECSC0202 (formerly GEOL0202) at Middlebury College.
 
 
 ## First time user instructions
@@ -19,7 +19,7 @@ The following commands will create a self-contained conda environment with every
 ```
 conda env create --file environment.yml
 conda activate geol202
-jupyter notebook
+jupyter lab
 ```
 
 
@@ -31,5 +31,15 @@ If you are coming back to this repo to run a new notebook, and you already have 
 2. From within the `climdyn-labs` directory, enter the following commands in the terminal:
 ```
 conda activate geol202
-jupyter notebook
+jupyter lab
 ```
+
+
+## Pro tips
+- Keep your local `climdyn-labs` folder in the same location throughout the semester.
+- Use this folder only for labs.  Do not create your problem sets in the same folder.
+- When you are going to modify a lab notebook, change its file name to something like 
+`lab1-EHU.ipynb` to distinguish it from the clean copy I provide for you on GitHub.
+- If you have worked through a notebook but you don't need to save any notes to yourself, 
+always remember to 'Clear All Output' before you save and close.  This makes it easier to
+focus on important changes in the version history GitHub creates for you.

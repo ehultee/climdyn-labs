@@ -13,7 +13,7 @@ dependencies:
   - cartopy
   - sympy
   - ffmpeg
-  - jupyter
+  - jupyterlab
   - climlab>=0.7.5  # older versions in 0.7 series had some bugs in diffusion diagnostics
   - version_information
   - rise
