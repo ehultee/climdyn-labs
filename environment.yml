@@ -1,4 +1,4 @@
-name: geol202
+name: ecsc202
 channels:
   - conda-forge
   - defaults
