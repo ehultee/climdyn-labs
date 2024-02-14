@@ -17,7 +17,7 @@ The following commands will create a self-contained conda environment with every
 
 3. Now, from the front page of this repository, click the green button that says "Code" or "Clone" at the upper right.  Select "Open in GitHub Desktop" and click through to download the repository on your local machine.
 
-4. Open a terminal window and navigate to your `climdyn-labs` directory using the `cd` command (see a tutorial from Software Carpentries [here](https://swcarpentry.github.io/shell-novice/02-filedir/index.html)).  
+4. Open a terminal window and navigate to your `climdyn-labs` directory using the `cd` command (see a basic Unix navigation documentation [here](https://andysbrainbook.readthedocs.io/en/latest/unix/Unix_01_Navigation.html).  
 
 5. Finally, from within the `climdyn-labs` directory, enter the following commands in the terminal:
 ```
