@@ -1,7 +1,7 @@
 name: ecsc202
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - python
   - numpy
@@ -16,6 +16,6 @@ dependencies:
   - jupyterlab
   - climlab>=0.7.5  # older versions in 0.7 series had some bugs in diffusion diagnostics
   - version_information
-  - rise
+# - rise
   - numba>=0.43.1  # older version will hang forever under python 3, https://github.com/brian-rose/climlab/issues/101
   - netcdf4
