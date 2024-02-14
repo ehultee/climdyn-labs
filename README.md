@@ -22,7 +22,7 @@ The following commands will create a self-contained conda environment with every
 5. Finally, from within the `climdyn-labs` directory, enter the following commands in the terminal:
 ```
 conda env create --file environment.yml
-conda activate geol202
+conda activate ecsc202
 jupyter lab
 ```
 
@@ -34,7 +34,7 @@ If you are coming back to this repo to run a new notebook, and you already have 
 
 2. From within the `climdyn-labs` directory, enter the following commands in the terminal:
 ```
-conda activate geol202
+conda activate ecsc202
 jupyter lab
 ```
 
