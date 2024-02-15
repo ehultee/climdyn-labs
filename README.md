@@ -17,9 +17,10 @@ The following commands will create a self-contained conda environment with every
 
 3. Now, from the front page of this repository, click the green button that says "Code" or "Clone" at the upper right.  Select "Open in GitHub Desktop" and click through to download the repository on your local machine.
 
-4. Open a terminal window and navigate to your `climdyn-labs` directory using the `cd` command (see a basic Unix navigation documentation [here](https://andysbrainbook.readthedocs.io/en/latest/unix/Unix_01_Navigation.html).  
+4. Open a terminal window and navigate to your `climdyn-labs` directory using the `cd` command (see a basic Unix navigation documentation [here](https://andysbrainbook.readthedocs.io/en/latest/unix/Unix_01_Navigation.html)).
+   - If you are on a Windows computer: I suggest copying the full path of `climdyn-labs` on your system by viewing it in your file explorer and right-clicking the folder > "Copy as Path".  Then, in an Anaconda Prompt window, type `cd ` (including space) and paste the path you have copied. 
 
-5. Finally, from within the `climdyn-labs` directory, enter the following commands in the terminal:
+6. Finally, from within the `climdyn-labs` directory, enter the following commands in the terminal (or an Anaconda Prompt window):
 ```
 conda env create --file environment.yml
 conda activate ecsc202
@@ -30,7 +31,7 @@ jupyter lab
 
 ## Returning user instructions
 If you are coming back to this repo to run a new notebook, and you already have the environment installed, all you need to do is
-1. Open a terminal window and navigate to your `climdyn-labs` directory using the `cd` command.  
+1. Open a terminal (or Anaconda Prompt) window and navigate to your `climdyn-labs` directory using the `cd` command.  
 
 2. From within the `climdyn-labs` directory, enter the following commands in the terminal:
 ```
